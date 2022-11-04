@@ -1,24 +1,44 @@
 body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2a/Carter_vs_Gasol%2C_Lakers_vs_Magic.jpg");
+    background-size: cover;
     margin: 0;
     text-align: center;
 }
 
+
+h3 {
+    background-color: hsl(180, 62%, 46%);
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .score {
-    background: #0a0001;
+    background: hsl(180, 62%, 46%);
     font-size: 90px;
-    color: #F94F6D;
+    color: whitesmoke;
     width: 120px;
+
     margin: 20px;
 }
 
+button {
+    border: 1px solid whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(180, 62%, 46%);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
 .container {
+    
     display: flex;
     justify-content: space-around;
 }
 
-button {
-    background: none;
-}
 
 
 
