@@ -7,7 +7,6 @@ function arti1(){
     
 }
 function arti2(){
-    
     home.innerText = parseInt(home.innerText) + 2
     
 }
